@@ -10,8 +10,13 @@ using ZTP_Projekt;
 
 class Program
 {
+    
+    
     static void Main()
     {
+        Process.GetCurrentProcess().ProcessorAffinity = (IntPtr)0xF; // rdzenie 0–3
+
+        
         string inputFolder = @"C:\Users\sirwo\Desktop\ZTP\Program\ZTP_Projekt\ZTP_Projekt\zdjecia";
         string outputFolder = @"C:\Users\sirwo\Desktop\ZTP\Program\ZTP_Projekt\ZTP_Projekt\zdjecia_filtered_managed";
         string outputUnmanaged = @"C:\Users\sirwo\Desktop\ZTP\Program\ZTP_Projekt\ZTP_Projekt\zdjecia_filtered_unmanaged";
@@ -23,7 +28,9 @@ class Program
         GCSettings.LargeObjectHeapCompactionMode = GCLargeObjectHeapCompactionMode.CompactOnce;
 
         Stopwatch sw = Stopwatch.StartNew();
-        ManagedBitmapProcessor.ProcessAllInFolder(inputFolder, outputFolder);
+        //ManagedBitmapProcessor.ProcessAllInFolder(inputFolder, outputFolder);
+        //OptimizedBitmapProcessor.ProcessAllInFolder(inputFolder, outputFolder);
+        SIMDBitmapProcessor.ProcessAllInFolder(inputFolder, outputFolder);
         sw.Stop();
 
         GCSettings.LargeObjectHeapCompactionMode = GCLargeObjectHeapCompactionMode.CompactOnce;

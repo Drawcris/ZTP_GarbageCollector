@@ -1,6 +1,22 @@
 ﻿using System;
 using System.Drawing;
 using System.IO;
+using System;
+using System.Buffers;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Runtime.InteropServices;
+
+
+using System;
+using System.Buffers;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Numerics;
+using System.Runtime.InteropServices;
+
 
 class ManagedBitmapProcessor
 {
