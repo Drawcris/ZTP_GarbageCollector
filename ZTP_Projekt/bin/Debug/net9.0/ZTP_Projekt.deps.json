@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ZTP_Projekt/1.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "10.0.0-preview.4.25258.110"
+        },
+        "runtime": {
+          "ZTP_Projekt.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/10.0.0-preview.4.25258.110": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.25910"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.25910"
+          }
+        }
+      },
+      "System.Drawing.Common/10.0.0-preview.4.25258.110": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "10.0.0-preview.4.25258.110"
+        },
+        "runtime": {
+          "lib/net9.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.25910"
+          },
+          "lib/net9.0/System.Private.Windows.Core.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.25910"
+          },
+          "lib/net9.0/System.Private.Windows.GdiPlus.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.25910"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZTP_Projekt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/10.0.0-preview.4.25258.110": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m0jw4dDV9hzqXMutF+zoH8ZgoHY7tX00aJGdv+PIc9XXGjbOPHpkSzOS9Bn+z8EfMWItPsioW8ZP+8UG3C/Rbw==",
+      "path": "microsoft.win32.systemevents/10.0.0-preview.4.25258.110",
+      "hashPath": "microsoft.win32.systemevents.10.0.0-preview.4.25258.110.nupkg.sha512"
+    },
+    "System.Drawing.Common/10.0.0-preview.4.25258.110": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ac/dQKqocqWTzv0L23i3DSSUoi0o4Mj+klVu9OqNz3d0qyrQtDGwrb+E+SR+nix34vFKTp//JNwwoHgzJaG8jw==",
+      "path": "system.drawing.common/10.0.0-preview.4.25258.110",
+      "hashPath": "system.drawing.common.10.0.0-preview.4.25258.110.nupkg.sha512"
+    }
+  }
+}

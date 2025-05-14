@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OHYJHu//9Ns=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sirwo\\Desktop\\ZTP\\Program\\ZTP_Projekt\\ZTP_Projekt\\ZTP_Projekt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sirwo\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.0-preview.4.25258.110\\microsoft.win32.systemevents.10.0.0-preview.4.25258.110.nupkg.sha512",
+    "C:\\Users\\sirwo\\.nuget\\packages\\system.drawing.common\\10.0.0-preview.4.25258.110\\system.drawing.common.10.0.0-preview.4.25258.110.nupkg.sha512"
+  ],
+  "logs": []
+}
